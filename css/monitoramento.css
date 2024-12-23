@@ -10,12 +10,37 @@
     padding: 5px;
     margin: 2px;
 }
+.cartao-indisponivel {
+    width: 200px;
+    height: 80px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #000;
+    float: left;
+    position: relative;
+    padding: 5px;
+    margin: 2px;
+    background-color: #d3d3d3;
+}
 
 .ocupado {
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: #ff0000;
+}
+.pausa {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #f67828;
+}
+.indisponivel {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #808080;
 }
 
 .chamando {
@@ -26,11 +51,28 @@
     animation: piscar 1s linear infinite;
 }
 
+.erro {
+    height: 50px;
+    background-color: lightcoral;
+    /* animation: sumir 10s; */
+    position: relative;
+    padding: 20px;
+    border-radius: 2px;
+    border: #000;
+    scroll-behavior: auto;
+    overflow: auto;
+}
+
 @keyframes piscar {
     50% {
         opacity: 0;
     }
 }
+
+/* @keyframes sumir {
+    from {opacity: 100;}
+    to{opacity: 0;}
+} */
 
 .disponivel {
     width: 15px;

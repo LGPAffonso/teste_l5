@@ -23,3 +23,17 @@ O teste também contará com algumas atividades obrigatórias:
 4. Estes arquivos NÃO devem unidos em um só arquivo  
 5. Estes arquivos poderão ser alterados apenas para teste do AJAX  
 6. Ao concluir o teste, deverá ser encaminhado um arquivo .zip contendo todo o código, dump da base de dados e instruções de instalação e a lista das melhorias aplicadas.  
+
+## INFORMAÇÔES SOBRE A RESOLUÇÂO
+o campo stt na base de dados de refere ao status do ramal (disponivel, pausa, etc.);
+
+a parte de name e user name ficou um pouco dificil de associal qual era referente ao ramal e qual era referente ao agente, peguei o 'name' como do ramal pois o mesmo não se repetia
+na fila e fazia mais sentido o username ser do agente;
+
+### MELHORIAS
+
+Passado o projeto para MVC;
+Criado o arquivo de banco para conecção e alterção dos dados de cenecção;
+Código preparado para receber novos ramais fazendo a verificação dos já existentes na base;
+Adicionado mensagens de erro para atualização da base;
+adicionado o campo de grupo a base de dados caso estejamos lidando com mais de um grupo;
